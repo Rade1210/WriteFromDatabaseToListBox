@@ -29,32 +29,33 @@ namespace Klasican_ispis_iz_baze_u_listu
         /// </summary>
         private void InitializeComponent()
         {
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.lbWrite = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
-            // listBox1
+            // lbWrite
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(74, 49);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(270, 95);
-            this.listBox1.TabIndex = 0;
+            this.lbWrite.FormattingEnabled = true;
+            this.lbWrite.Location = new System.Drawing.Point(74, 49);
+            this.lbWrite.Name = "lbWrite";
+            this.lbWrite.Size = new System.Drawing.Size(270, 95);
+            this.lbWrite.TabIndex = 0;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(422, 210);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.lbWrite);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox lbWrite;
     }
 }
 
